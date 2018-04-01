@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\GameSystem">
+      <UniqueIdentifier>{eb37422c-91ba-4f51-bc7e-7825758a9730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Controls">
+      <UniqueIdentifier>{16a12b92-40f5-4183-b8a2-04d961b01947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem">
+      <UniqueIdentifier>{c1a1ab37-a849-4ddd-9c6c-35404da2d174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Controls">
+      <UniqueIdentifier>{9b16a665-1389-4e4e-b62d-f356258605f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WindowEngine.cpp">
+      <Filter>Source Files\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameSystem.cpp">
+      <Filter>Source Files\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameSystemPC.cpp">
+      <Filter>Source Files\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameSystemSwitch.cpp">
+      <Filter>Source Files\GameSystem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\WindowEngine.h">
+      <Filter>Header Files\GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameSystem.h">
+      <Filter>Header Files\GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameSystemPC.h">
+      <Filter>Header Files\GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameSystemSwitch.h">
+      <Filter>Header Files\GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\syscontrol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
