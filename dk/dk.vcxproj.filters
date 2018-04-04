@@ -30,9 +30,6 @@
     <ClCompile Include="src\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\WindowEngine.cpp">
-      <Filter>Source Files\GameSystem</Filter>
-    </ClCompile>
     <ClCompile Include="src\GameSystem.cpp">
       <Filter>Source Files\GameSystem</Filter>
     </ClCompile>
@@ -42,11 +39,14 @@
     <ClCompile Include="src\GameSystemSwitch.cpp">
       <Filter>Source Files\GameSystem</Filter>
     </ClCompile>
+    <ClCompile Include="src\Graphics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Controls.cpp">
+      <Filter>Source Files\Controls</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\WindowEngine.h">
-      <Filter>Header Files\GameSystem</Filter>
-    </ClInclude>
     <ClInclude Include="src\GameSystem.h">
       <Filter>Header Files\GameSystem</Filter>
     </ClInclude>
@@ -58,6 +58,12 @@
     </ClInclude>
     <ClInclude Include="src\syscontrol.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Controls.h">
+      <Filter>Header Files\Controls</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

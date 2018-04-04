@@ -12,5 +12,5 @@ public:
 
 	virtual void PreFrame();
 	virtual void Render();
-
+	virtual void HandleControls();
 };

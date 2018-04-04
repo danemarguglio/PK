@@ -48,7 +48,9 @@ GameSystemPC.o: c:/Users/hippo/Desktop/dk/dk/src/GameSystemPC.cpp \
  d:/devkitPro/libnx/include/switch/runtime/devices/usb_comms.h \
  d:/devkitPro/libnx/include/switch/runtime/devices/fs_dev.h \
  d:/devkitPro/libnx/include/switch/runtime/devices/romfs_dev.h \
- d:/devkitPro/libnx/include/switch/runtime/devices/socket.h
+ d:/devkitPro/libnx/include/switch/runtime/devices/socket.h \
+ c:/Users/hippo/Desktop/dk/dk/src/Graphics.h \
+ c:/Users/hippo/Desktop/dk/dk/src/Controls.h
 
 c:/Users/hippo/Desktop/dk/dk/src/GameSystemPC.h:
 
@@ -149,3 +151,7 @@ d:/devkitPro/libnx/include/switch/runtime/devices/fs_dev.h:
 d:/devkitPro/libnx/include/switch/runtime/devices/romfs_dev.h:
 
 d:/devkitPro/libnx/include/switch/runtime/devices/socket.h:
+
+c:/Users/hippo/Desktop/dk/dk/src/Graphics.h:
+
+c:/Users/hippo/Desktop/dk/dk/src/Controls.h:

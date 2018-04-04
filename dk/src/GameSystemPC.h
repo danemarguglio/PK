@@ -9,6 +9,7 @@ class GameSystemPC :
 	SDL_Renderer* renderer = NULL;
 	SDL_Event e;
 
+
 	bool error;
 public:
 	GameSystemPC(u32 fb_width, u32 fb_height);
@@ -16,6 +17,9 @@ public:
 
 	virtual void PreFrame();
 	virtual void Render();
+	virtual void HandleControls();
+
+
 	void DrawFrameBuffer();
 };
 

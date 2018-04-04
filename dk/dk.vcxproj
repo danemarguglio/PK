@@ -19,18 +19,20 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Controls.cpp" />
     <ClCompile Include="src\GameSystem.cpp" />
     <ClCompile Include="src\GameSystemPC.cpp" />
     <ClCompile Include="src\GameSystemSwitch.cpp" />
+    <ClCompile Include="src\Graphics.cpp" />
     <ClCompile Include="src\Main.cpp" />
-    <ClCompile Include="src\WindowEngine.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Controls.h" />
     <ClInclude Include="src\GameSystem.h" />
     <ClInclude Include="src\GameSystemPC.h" />
     <ClInclude Include="src\GameSystemSwitch.h" />
+    <ClInclude Include="src\Graphics.h" />
     <ClInclude Include="src\syscontrol.h" />
-    <ClInclude Include="src\WindowEngine.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

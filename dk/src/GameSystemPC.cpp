@@ -20,15 +20,35 @@ GameSystemPC::GameSystemPC(u32 fb_width, u32 fb_height)
 	fb = new u32[fb_width*fb_height];
 	for (u32 i = 0; i < fb_width * fb_height; ++i)
 	{
+		//Starts off red, for no reason.
 		fb[i] = 0xFF0000FF;
 	}
+
+	graphics = Graphics((this->fb_height), (this->fb_width), fb);
 
 }
 
  void GameSystemPC::PreFrame()
 {
-
+	 graphics.Test();
 }
+
+
+ void GameSystemPC::HandleControls()
+ {
+	 while (SDL_PollEvent(&e) != 0)
+	 {
+		 if (e.type == SDL_QUIT)
+		 {
+			 quit = true;
+		 }
+	 }
+ }
+
+
+
+
+
 
 //Emulate drawing to framebuffer on switch
 void GameSystemPC::DrawFrameBuffer()
